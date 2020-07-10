@@ -13,10 +13,11 @@
 		E3E5C16524B8501D0037D99A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3E5C16324B8501D0037D99A /* Main.storyboard */; };
 		E3E5C16724B8501F0037D99A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3E5C16624B8501F0037D99A /* Assets.xcassets */; };
 		E3E5C16A24B8501F0037D99A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3E5C16824B8501F0037D99A /* LaunchScreen.storyboard */; };
+		E3E5C17424B86B4F0037D99A /* DataPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E5C17324B86B4F0037D99A /* DataPrice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E3E5C15A24B8501D0037D99A /* Bit Rate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bit Rate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E5C15A24B8501D0037D99A /* Bit Price.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bit Price.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E5C15D24B8501D0037D99A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3E5C15F24B8501D0037D99A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E3E5C16124B8501D0037D99A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		E3E5C16624B8501F0037D99A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3E5C16924B8501F0037D99A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3E5C16B24B8501F0037D99A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3E5C17324B86B4F0037D99A /* DataPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPrice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		E3E5C15B24B8501D0037D99A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E3E5C15A24B8501D0037D99A /* Bit Rate.app */,
+				E3E5C15A24B8501D0037D99A /* Bit Price.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +65,7 @@
 				E3E5C16624B8501F0037D99A /* Assets.xcassets */,
 				E3E5C16824B8501F0037D99A /* LaunchScreen.storyboard */,
 				E3E5C16B24B8501F0037D99A /* Info.plist */,
+				E3E5C17324B86B4F0037D99A /* DataPrice.swift */,
 			);
 			path = "Bit Rate";
 			sourceTree = "<group>";
@@ -84,7 +87,7 @@
 			);
 			name = "Bit Rate";
 			productName = "Bit Rate";
-			productReference = E3E5C15A24B8501D0037D99A /* Bit Rate.app */;
+			productReference = E3E5C15A24B8501D0037D99A /* Bit Price.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,6 +144,7 @@
 				E3E5C16224B8501D0037D99A /* ViewController.swift in Sources */,
 				E3E5C15E24B8501D0037D99A /* AppDelegate.swift in Sources */,
 				E3E5C16024B8501D0037D99A /* SceneDelegate.swift in Sources */,
+				E3E5C17424B86B4F0037D99A /* DataPrice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,12 +291,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G9D632BTGH;
 				INFOPLIST_FILE = "Bit Rate/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ArtistSamyak.Bit-Rate";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Bit Price";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,12 +310,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G9D632BTGH;
 				INFOPLIST_FILE = "Bit Rate/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ArtistSamyak.Bit-Rate";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Bit Price";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
