@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+//Used to fetch JSON data from API.
 struct DataPrice: Codable {
     let USD : Currency
     let AUD : Currency

@@ -39,6 +39,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E3DB84DC24C855D700FFE7E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E3E5C17324B86B4F0037D99A /* DataPrice.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E3DB84DD24C855E800FFE7E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3E5C16324B8501D0037D99A /* Main.storyboard */,
+				E3E5C16824B8501F0037D99A /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E3DB84DE24C8560100FFE7E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E3E5C16124B8501D0037D99A /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		E3E5C15124B8501D0037D99A = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +83,13 @@
 		E3E5C15C24B8501D0037D99A /* Bit Rate */ = {
 			isa = PBXGroup;
 			children = (
+				E3DB84DC24C855D700FFE7E1 /* Models */,
+				E3DB84DD24C855E800FFE7E1 /* View */,
+				E3DB84DE24C8560100FFE7E1 /* Controller */,
 				E3E5C15D24B8501D0037D99A /* AppDelegate.swift */,
 				E3E5C15F24B8501D0037D99A /* SceneDelegate.swift */,
-				E3E5C16124B8501D0037D99A /* ViewController.swift */,
-				E3E5C16324B8501D0037D99A /* Main.storyboard */,
 				E3E5C16624B8501F0037D99A /* Assets.xcassets */,
-				E3E5C16824B8501F0037D99A /* LaunchScreen.storyboard */,
 				E3E5C16B24B8501F0037D99A /* Info.plist */,
-				E3E5C17324B86B4F0037D99A /* DataPrice.swift */,
 			);
 			path = "Bit Rate";
 			sourceTree = "<group>";

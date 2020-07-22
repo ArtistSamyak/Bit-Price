@@ -9,9 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    // array of all currencies
     let allCurrencies = ["USD","AUD","BRL","CAD","CHF","CLP","CNY","DKK","EUR","GBP","HKD","INR","ISK","JPY","KRW","NZD","PLN","RUB","SEK","SGD","THB","TRY","TWD"]
-      
+    // array of their respective bitcoin rates currently empty.
     var allPrices = ["","","","","","","","","","","","","","","","","","","","","","",""]
     
     
@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         GetAllPrices()
         
     }
-    
+    // Function to make an API request and get all the rates.
     func GetAllPrices(){
         //URL
         let url = URL(string: "https://blockchain.info/ticker")
@@ -34,6 +34,7 @@ class ViewController: UIViewController {
         let task = session.dataTask(with: url!) { (data, urlResponce, error) in
             let decoder = JSONDecoder()
             let decodedData = try! decoder.decode( DataPrice.self  , from: data!)
+            //rates stored in the array.
             self.allPrices[0] = String(decodedData.USD.last)
             self.allPrices[1] = String(decodedData.AUD.last)
             self.allPrices[2] = String(decodedData.BRL.last)
